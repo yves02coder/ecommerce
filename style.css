@@ -1,0 +1,143 @@
+
+#header{
+
+    margin-left: 150px;
+}
+.img{
+    margin-left: 38%;
+}
+#reconnexion
+{
+    margin-left:80%;
+}
+.paragraph
+{
+    color: white;
+}
+.bouton
+{
+    margin-left: 50%;
+    width: 10px;
+}
+.login
+{
+    border: 1px solid rgb(179, 197, 19);
+    width: 20%;
+    margin-left: 40%;
+}
+.image
+{
+    width: 10%;
+}
+h1{
+    color: chartreuse;
+    text-shadow: white;
+}
+img:hover {
+   
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.liste-detail
+{
+   list-style-type: none;
+   
+}
+
+body
+{
+    background-color:#8599a1ee;
+}
+.border
+{
+    height: 100px;
+}
+h3
+{
+    color: crimson;
+    text-shadow: white;
+}
+    .fadeInDown {
+        -webkit-animation-name: fadeInDown;
+        animation-name: fadeInDown;
+        -webkit-animation-duration: 3s;
+        animation-duration: 2s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        }
+        @-webkit-keyframes fadeInDown {
+        0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+        }
+        100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+        }
+        }
+        @keyframes fadeInDown {
+        0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+        }
+        100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+        }
+        } 
+        .flash {
+            -webkit-animation-name: flash;
+            animation-name: flash;
+            -webkit-animation-duration: 1s;
+            animation-duration: 5s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: none;
+            }
+            @-webkit-keyframes flash {
+            0%, 50%, 100% {
+            opacity: 1;
+            }
+            
+            25%, 75% {
+            opacity: 0;
+            }
+            }
+            
+            @keyframes flash {
+            0%, 50%, 100% {
+            opacity: 1;
+            }
+            25%, 75% {
+                opacity: 0;
+                }
+            } 
+ 
+
+            .button{
+
+                display: inline-block;
+                padding: 15px 20px;
+                font-size: 15px;
+                cursor: pointer;
+                text-align: center;
+                text-decoration: none;
+                outline: none;
+                color: rgb(235, 43, 43);
+                background-color: #4CAF50;
+                border: none;
+                border-radius: 15px;
+                box-shadow: 0 9px rgb(241, 238, 238);
+              }
+              
+              .button:hover {background-color: #3e8e41}
+              
+              .button:active {
+                background-color: #3e8e41;
+                box-shadow: 0 5px rgb(236, 229, 229);
+                transform: translateY(4px);
+              }
+             
